@@ -19,7 +19,7 @@ let User;
 
 exports.initialize = () => {
     return new Promise((resolve,reject) => {
-        let db = mongoose.createConnection("mongodb+srv://parth23:O9QPWEWhQFrFT6Mo@senecaweb.qtmoevf.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true });
+        let db = mongoose.createConnection("mongodb+srv://pvyas13:CjqqY8Cb1U69QrpJ@senecawebb.is2xcjb.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true });
         db.on('error', (err) => {
             reject(err);
         })
